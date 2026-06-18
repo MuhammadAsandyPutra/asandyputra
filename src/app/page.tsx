@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { About } from "@/src/app/about/page";
 import { Hero } from "@/src/app/hero/page";
 import { SiteHeader } from "@/src/components/layout/site-header";
