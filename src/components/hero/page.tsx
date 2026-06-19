@@ -42,9 +42,21 @@ export function Hero() {
 
           <div className="mt-8 flex items-center gap-3">
             {[
-              { icon: Code2, label: "GitHub", href: "https://github.com" },
-              { icon: Globe, label: "LinkedIn", href: "https://linkedin.com" },
-              { icon: Mail, label: "Email", href: "mailto:hello@alex.dev" },
+              {
+                icon: Code2,
+                label: "GitHub",
+                href: "https://github.com/MuhammadAsandyPutra",
+              },
+              {
+                icon: Globe,
+                label: "LinkedIn",
+                href: "https://linkedin.com/in/asandyputra",
+              },
+              {
+                icon: Mail,
+                label: "Email",
+                href: "mailto:asandyputra77@gmail.com",
+              },
             ].map(({ icon: Icon, label, href }) => (
               <a
                 key={label}
